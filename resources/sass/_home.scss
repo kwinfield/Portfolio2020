@@ -1,0 +1,116 @@
+.home{
+    height: 100vh;
+    position: relative;
+    background-image: url(http://www.keithwinfield.com/images/suitandtie.jpg);
+    background-size: cover;
+    background-position: left;
+    .overlay {
+        position: relative;
+        height: 100%;
+        flex-wrap: wrap;
+        z-index: 2;
+        text-align: center;
+        color: #fff;
+        .overlay-wrap {
+            padding: 0 15px;
+            h1:after {
+                background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(165, 165, 165), rgba(0, 0, 0, 0));
+                position: absolute;
+                left: 0;
+                right: 0;
+                height: 1px;
+                width: 100%;
+                content: "";
+                bottom: -30px;
+            }
+            
+        }
+        span {
+            display: block;
+            width: 100%;
+            font-size: 20px;
+            color: #fff;
+            font-weight: 300;
+            letter-spacing: 3px;
+        }
+        .section-head {
+            position: relative;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        h1{
+            font-size: 6vh;
+            color: #fff;
+        }
+    }
+    .d-flex {
+        display: -ms-flexbox!important;
+        display: flex!important;
+    }
+}
+
+
+
+
+
+
+
+.section-home img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper-home {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    top: 0;
+    padding-top: 0 !important;
+}
+
+.swiper-home .swiper-slide {
+    background-size: cover;
+}
+
+.home-pagination {
+    position: absolute !important;
+    left: auto;
+    right: 15px;
+    z-index: 55;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-pagination .swiper-pagination-bullet {
+    margin: 0 7px;
+    width: 30px;
+    height: 4px;
+    border-radius: 1px;
+    background: #fff;
+    transition: 1s;
+    display: block;
+    margin: 20px 0 0 auto;
+}
+
+.swiper-pagination-white .swiper-pagination-bullet-active {
+    width: 50px;
+}
+
+.swiper-home .swiper-slide {
+    transition-duration: 1s;
+}
+
+.section-home #particles-js {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 57;
+    top: 0;
+    bottom: 0;
+}

@@ -1,0 +1,46 @@
+.section-contact {
+    padding-bottom: 30px !important;
+}
+
+.contact-map--container {
+    height: 450px;
+    overflow: hidden;
+}
+
+.contact-details--panel i {
+    font-size: 30px;
+}
+
+.contact-details--panel a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6e7373;
+    text-decoration: underline;
+}
+
+.contact-details--panel a:hover {
+    text-decoration: none;    
+}
+
+.contact-details--panel p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+}
+
+.form-control {
+    padding: 15px 30px;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-contact .section-subHead { 
+    margin: 0;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}

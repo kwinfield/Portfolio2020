@@ -1,0 +1,81 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .section-testimony {
+    padding-bottom: 80px
+}
+
+.single-testimonials {
+    width: 100%;
+}
+
+.single-testimonials-in {
+    max-width: 700px;
+    width: 85%;
+}
+
+.single-testimonials-in span {
+    font-size: 14px;
+}
+
+.single-testimonials img {
+    max-width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.swiper-pagination {
+    position: static;
+}
+
+.swiper-container {
+    padding-top: 20px;
+}
+
+.section-freelance {
+    background: url('https://ak.picdn.net/shutterstock/videos/32500771/thumb/1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+
+.section-freelance:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #2a2d35;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.section-freelance h2 {
+    color: #fff;
+}
