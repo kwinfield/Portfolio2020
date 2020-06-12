@@ -39,8 +39,8 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col">Email</th>
-                                <th scope="col">Date Created</th>
+                                <th scope="col">Project Name</th>
+                                <th scope="col">Date Added</th>
                                 <th scope="col">Edit</th>
                                 <th scope="col">Delete</th>
                             </tr>

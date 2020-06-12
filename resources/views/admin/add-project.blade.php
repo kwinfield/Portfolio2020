@@ -36,51 +36,33 @@
             <div class="card">
                     <h5 class="card-header">Add a New Project</h5>
                     <div class="card-body">
-                    <form class="splash-container" method="POST" action="/admin/users">
-                            <input type="hidden" name="_token" value="TsQ3fPEt7M3G9i8vtjHGNuaLFF1ia2OdK1bZ6x7Q">                                                <div class="form-group">
-                                <label for="inputfirstItem">First Name</label>
-                                <input id="inputfirstItem" type="text" class="form-control form-control-lg " name="fname" value="" required="" autocomplete="name" autofocus="" placeholder="First Name">
-                                                                                </div>
-                            <div class="form-group">
-                                <label for="inputlastItem">Last Name</label>
-                                <input id="inputlastItem" type="text" class="form-control form-control-lg " name="lname" value="" required="" autocomplete="name" autofocus="" placeholder="Last Name">
-
-                                                                                </div>
-                            <div class="form-group">
-                                <label for="inputemail">Email</label>
-                                <input id="einputemail" type="email" class="form-control form-control-lg " name="email" value="" required="" autocomplete="email" placeholder="E-mail">
-
-                                                                                </div>
-                            <div class="form-group">
-                                <label for="inputpassword">Password</label>
-                                <input id="inputpassword" type="password" class="form-control form-control-lg " name="password" required="" autocomplete="new-password" placeholder="Password">
-
-                                                                                </div>
-                            <div class="form-group">
-                                <label for="inputpassword">Confirm Password</label>
-                                <input id="inputpassword" type="password" class="form-control form-control-lg" name="password_confirmation" required="" autocomplete="new-password" placeholder="Confirm">
-                            </div>
-                            <div class="form-group">
-                            <label for="inputrole">Role</label>
-                            <select name="role_id" class="form-control" id="inputrole">
-                            
-                                                                                        <option value="1" selected="">Admin</option>
+                    <form class="splash-container" method="POST" action="/admin/add-project">
+                            <input type="hidden" name="_token" value="TsQ3fPEt7M3G9i8vtjHGNuaLFF1ia2OdK1bZ6x7Q">                                                
+                                <div class="form-group">
+                                    <label for="inputname">Name</label>
+                                    <input id="inputname" type="text" class="form-control form-control-lg " name="name" value="" required="" autocomplete="name" autofocus="" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputdescription">Desciption</label>
+                                    <input id="inputdescription" type="text" class="form-control form-control-lg " name="description" value="" required="" autocomplete="description" autofocus="" placeholder="Description">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputthumbnail">Thumbnail Image Url</label>
+                                    <input id="inputthumbnail" type="thumbnail" class="form-control form-control-lg " name="thumbnail" value="" required="" autocomplete="thumbnail" placeholder="Thumbnail Url">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputimage">Image Url</label>
+                                    <input id="inputimage" type="image" class="form-control form-control-lg " name="image" value="" required="" autocomplete="image" placeholder="Image Url">
+                                </div>
+                                <div class="row">
+                                <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
                                         
-                                    
-                                                                                        <option value="2">Employee</option>
-                                        
-                                    
-                                                                                </select>
-                            </div>
-                            <div class="row">
-                            <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
-                                    
-                            </div>
-                            <div class="col-sm-6 pl-0">
+                                </div>
+                                <div class="col-sm-6 pl-0">
                                     <p class="text-right">
                                     <button type="submit" class="btn btn-space btn-primary">Submit</button>
                                     </p>
-                            </div>
+                                </div>
                             </div>
                     </form>
                     </div>
