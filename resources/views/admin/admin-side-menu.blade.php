@@ -31,32 +31,7 @@
                                             <div id="submenu-1-1" class="collapse submenu" style="">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="/admin/settings" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2-1" aria-controls="submenu-1-1">General Settings</a>
-                                                        <div id="submenu-2-1" class="collapse submenu" style="">
-                                                            <ul class="nav flex-column">
-                                                                <li class="nav-item">
-                                                                    <a class="nav-link" href="/admin/settings">About</a>
-                                                                </li>
-                                                                <li class="nav-item">
-                                                                    <a class="nav-link" href="/admin/settings/seo">Services</a>
-                                                                </li>
-                                                                <li class="nav-item">
-                                                                    <a class="nav-link" href="/admin/settings/social">Experience</a>
-                                                                </li>
-                                                                <li class="nav-item">
-                                                                    <a class="nav-link" href="/admin/settings/social">Education</a>
-                                                                </li>
-                                                                <li class="nav-item">
-                                                                    <a class="nav-link" href="/admin/settings/social">Design Skills</a>
-                                                                </li>
-                                                                <li class="nav-item">
-                                                                    <a class="nav-link" href="/admin/settings/social">Code Skills</a>
-                                                                </li>
-                                                                <li class="nav-item">
-                                                                    <a class="nav-link" href="/admin/settings/social">Testimonial</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                                        <a class="nav-link" href="/admin/settings">General Settings</a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a class="nav-link" href="/admin/settings/seo">SEO Settings</a>

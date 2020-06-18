@@ -37,33 +37,17 @@
                     <h5 class="card-header">Edit Social Settings</h5>
                     <div class="card-body">
                     <form class="splash-container" method="POST" action="/admin/settings/social">
-                            <input type="hidden" name="_token" value="TsQ3fPEt7M3G9i8vtjHGNuaLFF1ia2OdK1bZ6x7Q">                                                <input type="hidden" name="_method" value="PUT">                                                <div class="form-group">
-                                <label for="inputtitle">Business Name</label>
-                                <input id="inputtitle" type="text" class="form-control form-control-lg " name="site_title" value="Billys Burgers" required="" autocomplete="site_title" autofocus="" placeholder="Add Site Title">
+                            <input type="hidden" name="_token" value="q3CrWJAqOlKrzkU5uLaK7DV53Phu82yzZME7l2r5">                                                <input type="hidden" name="_method" value="PUT">                                                <div class="form-group">
+                                <label for="inputfacebook">Facebook Url</label>
+                                <input id="inputfacebook" type="text" class="form-control form-control-lg " name="facebook_url" value="https://www.facebook.com/burgerking/" required="" autocomplete="facebook_url" autofocus="" placeholder="Add Facebook Url">
                                                                                 </div>
                             <div class="form-group">
-                                <label for="inputaddress1">Address 1</label>
-                                <input id="inputaddress1" type="text" class="form-control form-control-lg " name="address_1" value="14 Mountain Rd" required="" autocomplete="address_1" autofocus="" placeholder="Add Street Address">
+                                <label for="inputtwitter">Twitter Url</label>
+                                <input id="inputtwitter" type="text" class="form-control form-control-lg " name="twitter_url" value="https://twitter.com/BurgerKing" required="" autocomplete="twitter_url" autofocus="" placeholder="Add Twitter Url">
                                                                                 </div>
                             <div class="form-group">
-                                <label for="inputaddress2">Address 1</label>
-                                <input id="inputaddress2" type="text" class="form-control form-control-lg " name="address_2" value="" autocomplete="address_2" autofocus="" placeholder="">
-                                                                                </div>
-                            <div class="form-group">
-                                <label for="inputcity">City</label>
-                                <input id="inputcity" type="text" class="form-control form-control-lg " name="city" value="Glen Burnie" required="" autocomplete="city" autofocus="" placeholder="Add City">
-                                                                                </div>
-                            <div class="form-group">
-                                <label for="inputstate">State</label>
-                                <input id="inputstate" type="text" class="form-control form-control-lg " name="state" value="MD" required="" autocomplete="state" autofocus="" placeholder="Add State">
-                                                                                </div>
-                            <div class="form-group">
-                                <label for="inputzipcode">Zipcode</label>
-                                <input id="inputzipcode" type="text" class="form-control form-control-lg " name="zipcode" value="21060" required="" autocomplete="zipcode" autofocus="" placeholder="Add Zipcode">
-                                                                                </div>
-                            <div class="form-group">
-                                <label for="inputphonenumber">Phone Number</label>
-                                <input id="inputphonenumber" type="text" class="form-control form-control-lg " name="phone_number" value="347-231-4545" required="" autocomplete="phone_number" autofocus="" placeholder="Add Phone Number">
+                                <label for="inputinstagram">Instagram Url</label>
+                                <input id="inputinstagram" type="text" class="form-control form-control-lg " name="instagram_url" value="https://www.instagram.com/burgerking" autocomplete="instagram_url" autofocus="" placeholder="Add Instagram Url">
                                                                                 </div>
                             <div class="row">
                             <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">

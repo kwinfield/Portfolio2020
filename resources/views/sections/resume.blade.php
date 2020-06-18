@@ -6,7 +6,7 @@
         </div>
 
         <div class="row mt-4">
-            <div class="col-sm-6 col-lg-6">
+            <div class="col-12">
                 <h5 class="section-subHead mt-3"> My Experience</h5>
                 <div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;">
                     <div>
@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-6">
+            {{-- <div class="col-sm-6 col-lg-6">
                 <h5 class="section-subHead mt-3"> My Education</h5>
                 <div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;">
                     <div>
@@ -54,10 +54,10 @@
                         <p>Collaborate with creative and development teams on the execution of ideas.</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
 
-        <div class="row mt-4">
+        {{-- <div class="row mt-4">
             <div class="col-sm-6 col-lg-6">
                 <h5 class="section-subHead mt-3"> Design Skills</h5>
                 <div class="resume-panel b-box hover-state p-4 mt-3">
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
                 
     </div>
 </section>
