@@ -24,7 +24,7 @@ Route::get('/about', function () {
 
 
 ///admin
-Route::get('/login', function () {
+Route::get('/log', function () {
     return view('admin/login');
 });
 
